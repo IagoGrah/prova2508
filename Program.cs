@@ -4,7 +4,7 @@ namespace prova2508
 {
     class Program
     {
-        static void Questão1()
+        static void Questao1()
         {
             double horas;
             double minutos;
@@ -23,7 +23,7 @@ namespace prova2508
             Console.WriteLine($"Você recebe R${porDia.ToString("0.00")} por dia de trabalho.");
         }
 
-        static void Questão2()
+        static void Questao2()
         {
             string inputStr = "";
 
@@ -42,7 +42,7 @@ namespace prova2508
             Console.WriteLine("\n"+inputStr);
         }
         
-        static void Questão3()
+        static void Questao3()
         {
             int arrayLength = 5;
             string[] solteiros = new string[arrayLength];
@@ -75,7 +75,7 @@ namespace prova2508
             }
         }
 
-        static void Questão4()
+        static void Questao4()
         {
             Console.WriteLine("Insira seu ano de nascimento:");
             
@@ -92,10 +92,9 @@ namespace prova2508
             }
             Console.WriteLine(inputAno<2002 ? "Você é maior de idade." : "Você é menor de idade.");
         }
-
         static void Main(string[] args)
         {
-            Questão4();
+            Questao1();
         }
     }
 }
